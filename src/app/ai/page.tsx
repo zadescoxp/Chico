@@ -20,7 +20,7 @@ export default function AI() {
   // Google Gen AI Model Defined
 
   const genAI = new GoogleGenerativeAI(
-    "AIzaSyAv5gowkEKoHFU_qaZrwt_ysM74XMy3gco"
+    "YOUR API KEY"
   );
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
